@@ -5,7 +5,8 @@ m = int(input())
 print("Введите желаемое количество долек: ")
 k = int(input())
 
-if(k % n == 0 or k % m == 0):
+if(k % n == 0 or k % m == 0 or n * m >= k):
     print(n, m, k, "yes")
 else:
     print(n, m, k, "no")  
+    
