@@ -1,7 +1,8 @@
 print("Введите число: ")
-SumCranes = int(input())
-NumberGuys = 3
-if (SumCranes / NumberGuys % 2 == 0):
-    print(SumCranes//NumberGuys // 2, SumCranes//NumberGuys*2, SumCranes//NumberGuys // 2)
+sum_cranes = int(input())
+number_guys = 3
+if (sum_cranes / number_guys % 2 == 0):
+    print(sum_cranes // number_guys // 2, sum_cranes // number_guys * 2,
+          sum_cranes // number_guys // 2)
 else:
     print("Нельзя определить")
