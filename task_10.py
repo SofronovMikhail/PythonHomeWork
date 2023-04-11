@@ -1,4 +1,4 @@
-count_money = int(input())
+count_money = int(input("Введите колличество монет: "))
 i = 1
 count_false = 0
 count_true = 0
