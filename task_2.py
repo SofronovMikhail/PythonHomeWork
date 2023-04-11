@@ -1,10 +1,9 @@
 print("Введите трехзначное число: ")
-UserNumber = int(input())
+user_number = int(input())
 i = 10
-j =100
-
-if(UserNumber // j > 0 and UserNumber // j < 10):
-    Summa = (UserNumber %i) + ((UserNumber // i) % i) + (UserNumber // j)
-    print(Summa)
+j = 100
+if (user_number // j > 0 and user_number // j < 10):
+    summa = (user_number % i) + ((user_number // i) % i) + (user_number // j)
+    print(summa)
 else:
-    print("Не правильное число")        
+    print("Не правильное число")

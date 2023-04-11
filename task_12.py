@@ -6,8 +6,5 @@ for i in range(sum_multiplication):
     for j in range(sum_multiplication):
         if (i * j == sum_multiplication):
             if (i + j == sum_addition):
-                print(sum_addition, sum_multiplication, "=", i , j)
+                print(sum_addition, sum_multiplication, "=", i, j)
                 break
-
-
-

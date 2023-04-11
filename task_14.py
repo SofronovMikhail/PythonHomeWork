@@ -5,4 +5,3 @@ for i in range(user_number):
     if (multiplication >= user_number):
         break
     print(multiplication)
-    
