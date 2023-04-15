@@ -10,7 +10,7 @@ while (i < len(array)):
     i += 1
 min = min(array_end)
 for i in range(len(array_end)):
-     if (min == array_end[i]):
+    if (min == array_end[i]):
         index = i
         break
 print(f"Самое ближнее минимальное число: {array[index]}")
